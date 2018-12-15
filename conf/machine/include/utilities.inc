@@ -14,7 +14,7 @@ def make_dtb_boot_files(d):
             base = os.path.basename(dtb)
             src = '{}-{}'.format(imgtyp, base)
             dst = base
-            return '{};{}'.format(src, dst)
+            return '{};{}'.format(dst, dst)
         elif dtb.endswith('dtbo'):
             # overlay dtb:
             # eg: overlays/hifiberry-amp.dtbo has:
