@@ -1,6 +1,6 @@
 # Copyright (C) 2012-2018 O.S. Systems Software LTDA.
 # Released under the MIT license (see COPYING.MIT for the terms)
-
+COMPATIBLE_MACHINE = "^imx$"
 inherit fsl-u-boot-localversion
 
 LICENSE = "GPLv2+"
